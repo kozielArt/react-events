@@ -1,0 +1,40 @@
+.add-option-error {
+  color: white;
+  font-style: italic;
+  margin: $m-size 0 0 0;
+  padding: 0 $m-size;
+}
+
+.add-option {
+  display: flex;
+  flex-direction: column;
+  padding: $m-size;
+  margin: $s-size 0 $s-size 0;
+  background: $light-blue;
+  margin-bottom: $xl-size;
+}
+
+.add-option__input {
+  background: $navy;
+  border: none;
+  color: white;
+  border-bottom: .3rem solid darken($navy, 10%);
+  flex-grow: 1;
+  margin: 0 0 $s-size 0;
+  padding: $s-size;
+}
+
+.result-message {
+  display: flex;
+  justify-content: center;
+}
+
+.SingleDatePickerInput {
+  background-color: $navy;
+  border: 0;
+  margin: 0 0 $s-size 0;
+}
+
+.DateInput {
+  background-color: $navy;
+}
